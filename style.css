@@ -21,9 +21,15 @@ h1 {
 
   #liorPic{
     width: 30%;
-    border-radius: 100px;
+    border-radius: 30%;
   }
 
   #firsth2{
     font-family: 'Indie Flower', cursive
+  }
+
+  @media (max-width: 1050px) {
+    #liorPic {
+      width: 100%;
+    }
   }

@@ -1,6 +1,3 @@
-h1 {
-    color: red;
-  }
 
   .navi{
     position: fixed;
@@ -11,7 +8,7 @@ h1 {
   }
 
   #hero-inn{
-    padding-top: 5%;
+
     margin: auto;
     width: 60%;
     align-self: auto;
@@ -33,3 +30,44 @@ h1 {
       width: 100%;
     }
   }
+
+  
+  h1 {
+    margin: 0;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: bold;
+    padding: 15%;
+  }
+  
+  section {
+    padding: 5% 0;
+    margin: auto
+  }
+  
+  .text-center{
+    text-align: center
+  }
+
+  .portCon{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#frstRow{
+  padding-top: 5%;
+  margin: auto;
+  width: 60%;
+  align-self: auto;
+  text-align: center;
+}
+
+#site1{
+  width: 100%;
+
+}
+
+.sites{
+  border: 1px solid grey;
+  padding: 10px;
+}
